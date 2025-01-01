@@ -1,0 +1,36 @@
+---
+import { Image } from 'astro:assets';
+import personalPhoto from '../assets/personal-photo.jpg';
+---
+
+<div class="card">
+  <div class="image-container">
+    <Image 
+      src={personalPhoto} 
+      alt="Profile Picture" 
+      class="image"
+      />
+  </div>
+  <div class="card-content">
+    <h1 class="card-header">Hector Figueroa</h1>
+    <p class="card-title">Software Developer</p>
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/in/hectorfigueroa37" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="linkedin-icon">
+        <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/devfig37/?hl=en" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="instagram-icon">
+            <i class="fa fa-instagram"></i>
+        </a>
+    </div>
+  </div>
+</div>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
