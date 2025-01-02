@@ -55,14 +55,14 @@ body {
 .social-icons {
     display: flex;
     gap: 10px;
-    margin-top: -8px;
+    margin-top: -11px;
 }
 
 .social-icons a i {
-    width: 24px;
-    height: 24px;
+    width: 34px;
+    height: 34px;
     transition: transform 0.3s;
-    color: black;
+    font-size: 28px;
 }
 
 .social-icons a i:hover {
@@ -70,7 +70,7 @@ body {
 }  
 
 .social-icons .linkedin-icon i {
-    color: #0077B5 !important;
+    color: #0077B5;
 }
 
 .social-icons .instagram-icon i {
@@ -81,8 +81,13 @@ body {
 }
 
 .instagram-icon {
-    margin-top: 1.5px;
-    margin-left: -10px;
+    margin-top: 3px;
+    margin-left: -6px;
+}
+
+.github-icon {
+    margin-top: 2px;
+    margin-left: -5px;
 }
 
 .footer {
